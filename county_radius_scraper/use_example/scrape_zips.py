@@ -1,5 +1,5 @@
 import os
-import scrape_tools as s
+from county_radius_scraper import scrape_tools as s
 
 CONFIG_PARENT_PATH = os.getcwd()
 CONFIG_PATH = os.path.join(CONFIG_PARENT_PATH, 'scrape_config.json')
