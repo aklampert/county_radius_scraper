@@ -55,9 +55,9 @@ def zips_within_radius(lower_radius, upper_radius, base_zipcode):
 def zips_in_county(state, county):
     """
     Grabs metadata for all zipcodes in desired state and county combo.
-    :param state Zipcode we want metadata for.
-    :param county Upper bound of range.
-    :return Dataframe containing zip of interest in first column, surrounding zips respectively in second column
+    :param state State associated with county.
+    :param county County of interest.
+    :return Dataframe containing City, State, County, and Zips.
     """
     county_output_cols = ['zips', 'city', 'county']
     county_regex_strings = ['zip-code/(\d+)/zip',
