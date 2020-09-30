@@ -1,0 +1,12 @@
+{
+	"within_radius": {
+		"lower_radius": 0,
+		"upper_radius": 5,
+		"base_zipcode": 11209
+	},
+	"county": {
+		"state": "NY",
+		"county": "Kings"
+	}
+	
+}
