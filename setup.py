@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(name='county_radius_scraper',
-      version='0.0.1',
+      version='0.0.2',
       description='Tools to make scraping easier for zipcode radius searches and zips within county searches.',
       url='',
       author='Andrew Klampert',
