@@ -8,7 +8,7 @@ CONFIG = s.json_loader(CONFIG_PATH)
 RADIUS_CONFIG = CONFIG['within_radius']
 COUNTY_CONFIG = CONFIG['county']
 
-
 if __name__ == "__main__":
     print(s.zips_within_radius(**RADIUS_CONFIG))
     print(s.zips_in_county(**COUNTY_CONFIG))
+    print(s.zip_coordinates(RADIUS_CONFIG['base_zipcode']))
